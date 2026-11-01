@@ -1,0 +1,101 @@
+com/heypixel/heypixelmod/obsoverlay/commands/a/a	Bind	COMMAND	bind		b	Bind a command to a key
+com/heypixel/heypixelmod/obsoverlay/commands/a/b	Config	COMMAND	config		conf	Open client config folder or manage cloud configs.
+com/heypixel/heypixelmod/obsoverlay/commands/a/c	Language	COMMAND	language		lang	Open language gui.
+com/heypixel/heypixelmod/obsoverlay/commands/a/d	Music	COMMAND	music		m,bgm	Control the built-in music player
+com/heypixel/heypixelmod/obsoverlay/commands/a/e	Proxy	COMMAND	proxy		prox	Set client proxy
+com/heypixel/heypixelmod/obsoverlay/commands/a/f	Toggle	COMMAND	toggle		t	Toggle a module
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/a	AimAssist	MODULE	AimAssist	閻嫬鍣潏鍛И	COMBAT	Automatically aims at targets
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/b	AntiBots	MODULE	AntiBots	閸欏秳姹夐張?COMBAT	Prevents bots from attacking you
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/c	CrystalAura	MODULE	CrystalAura	濮樺瓨娅犻崗澶屽箚	COMBAT	Automatically attacks end crystals
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/d	AutoClicker	MODULE	AutoClicker	閼奉亜濮╅悙鐟板毊	COMBAT	Automatically clicks for you
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/e	AutoHeal	MODULE	AutoHeal	閼奉亜濮╅崶鐐额攨	COMBAT	Automatically heals you when you're low on health.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/f	AutoThrow	MODULE	AutoThrow	閼奉亜濮╅幎鏇熷箯	COMBAT	Automatically throw snowballs and eggs.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/g	KeepSprint	MODULE	KeepSprint	娣囨繃瀵旈悿鎹愮獓	COMBAT	Maintain a sprinting state while attacking.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/h	KillAura	MODULE	KillAura	閺夆偓閹搭喖鍘滈悳?COMBAT	Automatically attacks entities
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/i	TickBase	MODULE	TickBase	Tick閸?COMBAT	Manipulates client ticks for combat timing
+com/heypixel/heypixelmod/obsoverlay/modules/impl/a/j	Velocity	MODULE	Velocity	閸欏秴鍤柅鈧?COMBAT	Reduces knockback.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/a	AntiFireball	MODULE	AntiFireball	閸欏秶浼€閻?MISC	Prevents fireballs from damaging you
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/b	AutoHeypixel	MODULE	AutoHeypixel	閼奉亜濮╁畝娑樻倧閸?MISC	Auto play Heypixel server.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/c	AutoSoup	MODULE	AutoSoup	閼奉亜濮╁Ч?MISC	Automatically uses mushroom stew when health is low
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/d	AutoTools	MODULE	AutoTools	閼奉亜濮╁銉ュ徔	MISC	Automatically switches to the best tool for the job
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/e	ChestStealer	MODULE	ChestStealer	缁犲崬鐡欑亸蹇撲紨	MISC	Automatically steals items from chests
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/f	ClientFriend	MODULE	ClientFriend	鐎广垺鍩涚粩顖涙箙閸?MISC	Treat other users as friend!
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/g	FastPlace	MODULE	FastPlace	韫囶偊鈧喐鏂佺純?MISC	Place blocks faster
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/h	GhostBedMine	MODULE	GhostBedMine	闂呮柨顣鹃幐鏍х哎	MISC	Mines beds through walls
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/i	GhostChestOpen	MODULE	GhostChestOpen	闂呮梻鈹栧鈧粻?MISC	Opens containers through walls
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/j	GhostHand	MODULE	GhostHand	妤濈厧銇?MISC	Allows interacting with blocks through walls
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/k	Helper	MODULE	Helper	閸斺晜澧?MISC	Bed wars Info helper
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/l	InventoryManager	MODULE	InventoryManager	閼冲苯瀵橀弫瀵告倞	MISC	Automatically manage your inventory
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/m	EffectTags	MODULE	EffectTags	閺佸牊鐏夐弽鍥╊劮	MISC	Show the player's effect tags.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/n	MiddleClick	MODULE	Middle Click	娑擃參鏁悙鐟板毊	MISC	
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/o	MusicPlayer	MODULE	MusicPlayer	闂婂厖绠伴幘顓熸杹閸?MISC	閹绢厽鏂侀張顒€婀撮棅鍏呯閺傚洣娆?(MP3 / OGG / WAV / AIFF)
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/p	Target	MODULE	Target	閻╊喗鐖?MISC	Prevent attack teammates
+com/heypixel/heypixelmod/obsoverlay/modules/impl/b/q	Teams	MODULE	Teams	闂冪喍绱?MISC	Prevent attack teammates
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/a	AutoStuck	MODULE	AutoStuck	閼奉亜濮╅崡锛勨敄	MOVEMENT	Automatically enable stuck when you over void
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/b	Blink	MODULE	Blink	閻剛些	MOVEMENT	Suspends all movement packets for teleporting!
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/c	Eagle	MODULE	Eagle	鐎瑰鍙忛煫鍙夋儗	MOVEMENT	Legit trick to build faster. Auto-sneak near edges.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/d	FastWeb	MODULE	FastWeb	韫囶偊鈧喕婀楅摂娑氱秹	MOVEMENT	Allows you to walk faster on cobwebs
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/e	Fly	MODULE	Fly	妞嬬偠顢?MOVEMENT	Double-tap space to fly like creative mode
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/f	GrimFly	MODULE	GrimFly	濞搭亜鐡欓梻鑼剁樈	MOVEMENT	Attempts to desync brief keepalive timing after knockback
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/g	GrimLowHop	MODULE	GrimLowHop	娑撱儱閮撮惃鍕▎閸㈣鎼遍崫?MOVEMENT	Movement speed adjustments with Grim modes
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/h	GrimSpeed	MODULE	GrimSpeed	娑撱儱閮撮惃鍕▎閸㈣鎼遍崫?MOVEMENT	Movement speed adjustments with Grim modes
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/i	LongJump	MODULE	LongJump	鐠哄疇绻欓崘鐘插晽	MOVEMENT	Allows you to use fireball longjump
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/j	NoFall	MODULE	NoFall	閸忓秵鎲导銈咁唺	MOVEMENT	Prevents fall damage
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/k	NoJumpDelay	MODULE	NoJumpDelay	閺冪姾鐑︾捄鍐ㄦ鏉?MOVEMENT	Removes the delay when jumping
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/l	NoSlow	MODULE	NoSlow	閺冪姴鍣洪柅?MOVEMENT	NoSlowDown
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/m	SafeWalk	MODULE	SafeWalk	鐎瑰鍙忕悰宀冭泲	MOVEMENT	Prevents you from falling off blocks
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/n	Scaffold	MODULE	Scaffold	閼奉亜濮╅幖顓＄熅	MOVEMENT	Automatically places blocks under you
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/o	Speed	MODULE	Speed	閸㈣妯嗛崫鍫濇惐	MOVEMENT	Movement speed adjustments with Grim modes
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/p	Sprint	MODULE	Sprint	閼奉亜濮╅悿鎹愮獓	MOVEMENT	Automatically sprints
+com/heypixel/heypixelmod/obsoverlay/modules/impl/c/q	Stuck	MODULE	Stuck	閸楋紕鈹?MOVEMENT	Stuck in air!
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/a	Animations	MODULE	Animations	閸斻劎鏁?RENDER	Customizes item animations and block animations
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/aa	TargetHUD	MODULE	TargetHUD	閻╊喗鐖ｉ悩鑸碘偓浣规▔缁€?RENDER	Display target info.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/ab	Test	MODULE	Test	濞村鐦?RENDER	
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/ac	TimeChanger	MODULE	TimeChanger	閺冨爼妫块弴瀛樻暭閸?RENDER	Change the time of the world
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/ad	ViewClip	MODULE	ViewClip	鐟欏棜顫楃粚鍨暰	RENDER	Allows you to see through blocks
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/ae	Watermark	MODULE	Watermark	鐎广垺鍩涚粩顖涙寜閸?RENDER	
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/af	Weather	MODULE	Weather	婢垛晜鐨?RENDER	Customize world weather
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/b	AntiBlindness	MODULE	AntiBlindness	闂冭尙婧傞惉?RENDER	Prevents blindness
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/c	AntiNausea	MODULE	AntiNausea	閸欏秵浼撹箛?RENDER	Prevents nausea
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/d	ArrayList	MODULE	ArrayList	濡€虫健閸掓銆?RENDER	閺勫墽銇氭担鐘冲ⅵ瀵偓閻ㄥ嫭膩閸?
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/DynamicIslandHud	DynamicIsland	MODULE	DynamicIsland	閻忛潧濮╁畝?RENDER	
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/e	BedESP	MODULE	BedESP	鎼村﹪鈧繗顫?RENDER	Highlights beds
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/f	ChestESP	MODULE	ChestESP	缁犲崬鐡欓柅蹇氼潒	RENDER	Highlights chests
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/g	ClickGUI	MODULE	ClickGUI	閻愮懓鍤悽銊﹀煕閸ユ儳鑸伴悾宀勬桨	RENDER	The ClickGUI
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/h	Compass	MODULE	Compass	閹稿洤宕￠柦?RENDER	Shows a compass
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/i	EffectHUD	MODULE	EffectHUD	閺佸牊鐏夐弰鍓с仛	RENDER	Displays potion effects on the HUD
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/j	Fov	MODULE	Fov	鐟欏棗婧€鐟?RENDER	Change fov.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/k	FullBright	MODULE	FullBright	閸忓妲?RENDER	Make your world brighter.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/l	Glow	MODULE	Glow	闁繗顫?RENDER	Glow effect for entities
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/m	HUD	MODULE	HUD	閹额剙銇旈弰鍓с仛閸?RENDER	Displays information on your screen
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/n	HUDEditor	MODULE	HUDEditor	HUD缂傛牞绶崳?RENDER	HUD editor screen.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/o	ItemTags	MODULE	ItemTags	閻椻晛鎼ч弽鍥╊劮	RENDER	Show item tags.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/p	KeyBinds	MODULE	KeyBinds	閹稿鏁弰鍓с仛	RENDER	閺勫墽銇氶幍鈧張澶嬪瘻闁款喚绮︾€?
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/Projectile	Projectiles	MODULE	Projectiles	閹舵洘骞忛悧鈺勬儰閻愯妯夌粈?RENDER	Renders projectiles
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/q	MotionBlur	MODULE	MotionBlur	閸斻劍鈧焦膩缁?RENDER	Make your game smoother.
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/r	NameProtect	MODULE	NameProtect	閸氬秶袨娣囨繃濮?RENDER	Protect your name
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/s	NameTags	MODULE	NameTags	閸氬秶袨閺嶅洨顒?RENDER	Renders name tags
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/t	NoHurtCam	MODULE	NoHurtCam	閺冪姳婵€鐎硅櫕濮堥崝?RENDER	Disables the hurt camera effect
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/u	NoRender	MODULE	NoRender	閺冪姵瑕嗛弻?RENDER	Disables rendering
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/v	Notification	MODULE	Notification	闁氨鐓?RENDER	
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/w	PostProcess	MODULE	PostProcess	閸氬骸顦╅悶?RENDER	Post process effects
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/x	Scoreboard	MODULE	Scoreboard	鐠佲€冲瀻閺?RENDER	Modifies the scoreboard
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/y	ServerNameSpoof	MODULE	ServerNameSpoof	閺堝秴濮熼崳銊ユ倳鐎涙ぞ鍚夌憗?RENDER	Spoof the server name
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/z	TargetESP	MODULE	TargetESP	閻╊喗鐖SP	RENDER	Render face overlay
+com/heypixel/heypixelmod/obsoverlay/a	EixClient	MODULE_MAIN	EixClient		1	Assembles modules, commands, events and config; NAME = "EixClient"
+com/heypixel/heypixelmod/obsoverlay/b	Version	MODULE_MAIN	9.3		0	Returned client version string "9.3"
+com/heypixel/heypixelmod/obsoverlay/c/a	ClickGuiScreen	MODULE_MAIN	ClickGUI screen		0	extends Screen; instantiated by the ClickGUI module
+com/heypixel/heypixelmod/obsoverlay/commands/a	Command	MODULE_MAIN	command base		0	abstract; reads @CommandInfo via reflection
+com/heypixel/heypixelmod/obsoverlay/d/a	NamedHolder	MODULE_MAIN	name holder		0	abstract base holding a display name (h/b/c(String)); Module extends it
+com/heypixel/heypixelmod/obsoverlay/events/api/a	EventLibInfo	MODULE_MAIN	0.7-beta DarkMagician6		0	event library version + author constants
+com/heypixel/heypixelmod/obsoverlay/events/api/a/a	Cancellable	MODULE_MAIN	isCancelled/setCancelled		0	interface boolean a(); void a(boolean)
+com/heypixel/heypixelmod/obsoverlay/modules/impl/render/a/a	TargetFilter	MODULE_MAIN	boolean a(Entity) + range defaults		0	entity predicate with default distance constants
+com/heypixel/heypixelmod/obsoverlay/music/a	AudioSupport	MODULE_MAIN	decoder availability		0	Class.forName probes for mp3/vorbis readers + extension test
+com/heypixel/heypixelmod/obsoverlay/utils/a	Smoother	MODULE_MAIN	smooth toward target		0	static float a(cur,target,dt) easing with speed field
+com/heypixel/heypixelmod/obsoverlay/utils/b	TargetStore	MODULE_MAIN	List<Entity>		0	holds the current target/entity list
+com/heypixel/heypixelmod/obsoverlay/utils/c	LoggedResource	MODULE_MAIN	logger + name + ResourceLocation		0	Logger + id string + ResourceLocation field
+com/heypixel/heypixelmod/obsoverlay/utils/d	RemotePlayerEntity	MODULE_MAIN	RemotePlayer proxy		0	extends RemotePlayer, delegates skin/cape of AbstractClientPlayer
+com/heypixel/heypixelmod/obsoverlay/utils/d/a	Framebuffer	MODULE_MAIN	glGenFramebuffers		0	FBO id/size managed via GlStateManager
+com/heypixel/heypixelmod/obsoverlay/utils/e	BlockShapeUtil	MODULE_MAIN	AABB / VoxelShape		0	block shape, isEmpty/air queries
+com/heypixel/heypixelmod/obsoverlay/utils/e/a	SkijaDraw	MODULE_MAIN	skija drawing		0	739 lines of Skija paint/rect/path drawing helpers
+com/heypixel/heypixelmod/obsoverlay/utils/f	ChatUtil	MODULE_MAIN	chat print		0	addMessage with the client chat prefix

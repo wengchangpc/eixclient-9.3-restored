@@ -1,0 +1,86 @@
+旧类名	新类名	类型	显示名	中文名	分类/别名	说明
+com.heypixel.heypixelmod.obsoverlay.commands.a.a	Bind	COMMAND	bind		b	Bind a command to a key
+com.heypixel.heypixelmod.obsoverlay.commands.a.b	Config	COMMAND	config		conf	Open client config folder or manage cloud configs.
+com.heypixel.heypixelmod.obsoverlay.commands.a.c	Language	COMMAND	language		lang	Open language gui.
+com.heypixel.heypixelmod.obsoverlay.commands.a.d	Music	COMMAND	music		m,bgm	Control the built-in music player
+com.heypixel.heypixelmod.obsoverlay.commands.a.e	Proxy	COMMAND	proxy		prox	Set client proxy
+com.heypixel.heypixelmod.obsoverlay.commands.a.f	Toggle	COMMAND	toggle		t	Toggle a module
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.a	AimAssist	MODULE	AimAssist	瞄准辅助	COMBAT	Automatically aims at targets
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.b	AntiBots	MODULE	AntiBots	反人机	COMBAT	Prevents bots from attacking you
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.d	AutoClicker	MODULE	AutoClicker	自动点击	COMBAT	Automatically clicks for you
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.e	AutoHeal	MODULE	AutoHeal	自动回血	COMBAT	Automatically heals you when you're low on health.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.f	AutoThrow	MODULE	AutoThrow	自动投掷	COMBAT	Automatically throw snowballs and eggs.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.c	CrystalAura	MODULE	CrystalAura	水晶光环	COMBAT	Automatically attacks end crystals
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.g	KeepSprint	MODULE	KeepSprint	保持疾跑	COMBAT	Maintain a sprinting state while attacking.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.h	KillAura	MODULE	KillAura	杀戮光环	COMBAT	Automatically attacks entities
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.i	TickBase	MODULE	TickBase	Tick基	COMBAT	Manipulates client ticks for combat timing
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.j	Velocity	MODULE	Velocity	反击退	COMBAT	Reduces knockback.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.a	AntiFireball	MODULE	AntiFireball	反火球	MISC	Prevents fireballs from damaging you
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.b	AutoHeypixel	MODULE	AutoHeypixel	自动岛吉吉	MISC	Auto play Heypixel server.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.c	AutoSoup	MODULE	AutoSoup	自动汤	MISC	Automatically uses mushroom stew when health is low
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.d	AutoTools	MODULE	AutoTools	自动工具	MISC	Automatically switches to the best tool for the job
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.e	ChestStealer	MODULE	ChestStealer	箱子小偷	MISC	Automatically steals items from chests
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.f	ClientFriend	MODULE	ClientFriend	客户端朋友	MISC	Treat other users as friend!
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.m	EffectTags	MODULE	EffectTags	效果标签	MISC	Show the player's effect tags.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.g	FastPlace	MODULE	FastPlace	快速放置	MISC	Place blocks faster
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.h	GhostBedMine	MODULE	GhostBedMine	隔墙挖床	MISC	Mines beds through walls
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.i	GhostChestOpen	MODULE	GhostChestOpen	隔空开箱	MISC	Opens containers through walls
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.j	GhostHand	MODULE	GhostHand	鬼头	MISC	Allows interacting with blocks through walls
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.k	Helper	MODULE	Helper	助手	MISC	Bed wars Info helper
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.l	InventoryManager	MODULE	InventoryManager	背包整理	MISC	Automatically manage your inventory
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.n	MiddleClick	MODULE	Middle Click	中键点击	MISC	
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.o	MusicPlayer	MODULE	MusicPlayer	音乐播放器	MISC	播放本地音乐文件 (MP3 / OGG / WAV / AIFF)
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.p	Target	MODULE	Target	目标	MISC	Prevent attack teammates
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.q	Teams	MODULE	Teams	队伍	MISC	Prevent attack teammates
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.a	AutoStuck	MODULE	AutoStuck	自动卡空	MOVEMENT	Automatically enable stuck when you over void
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.b	Blink	MODULE	Blink	瞬移	MOVEMENT	Suspends all movement packets for teleporting!
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.c	Eagle	MODULE	Eagle	安全蹲搭	MOVEMENT	Legit trick to build faster. Auto-sneak near edges.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.d	FastWeb	MODULE	FastWeb	快速蜘蛛网	MOVEMENT	Allows you to walk faster on cobwebs
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.e	Fly	MODULE	Fly	飞行	MOVEMENT	Double-tap space to fly like creative mode
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.f	GrimFly	MODULE	GrimFly	浪子闲话	MOVEMENT	Attempts to desync brief keepalive timing after knockback
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.g	GrimLowHop	MODULE	GrimLowHop	严峻的嘻嘻哈哈	MOVEMENT	Movement speed adjustments with Grim modes
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.h	GrimSpeed	MODULE	GrimSpeed	严峻的嘻嘻哈哈	MOVEMENT	Movement speed adjustments with Grim modes
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.i	LongJump	MODULE	LongJump	跳远冠军	MOVEMENT	Allows you to use fireball longjump
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.j	NoFall	MODULE	NoFall	免摔伤害	MOVEMENT	Prevents fall damage
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.k	NoJumpDelay	MODULE	NoJumpDelay	无跳跃延迟	MOVEMENT	Removes the delay when jumping
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.l	NoSlow	MODULE	NoSlow	无减速	MOVEMENT	NoSlowDown
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.m	SafeWalk	MODULE	SafeWalk	安全行走	MOVEMENT	Prevents you from falling off blocks
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.n	Scaffold	MODULE	Scaffold	自动搭路	MOVEMENT	Automatically places blocks under you
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.o	Speed	MODULE	Speed	嘻嘻哈哈	MOVEMENT	Movement speed adjustments with Grim modes
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.p	Sprint	MODULE	Sprint	自动疾跑	MOVEMENT	Automatically sprints
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.q	Stuck	MODULE	Stuck	卡空	MOVEMENT	Stuck in air!
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.a	Animations	MODULE	Animations	动画	RENDER	Customizes item animations and block animations
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.b	AntiBlindness	MODULE	AntiBlindness	防眼瞎	RENDER	Prevents blindness
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.c	AntiNausea	MODULE	AntiNausea	反恶心	RENDER	Prevents nausea
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.d	ArrayList	MODULE	ArrayList	模块列表	RENDER	显示你打开的模块
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.e	BedESP	MODULE	BedESP	床透视	RENDER	Highlights beds
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.f	ChestESP	MODULE	ChestESP	箱子透视	RENDER	Highlights chests
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.g	ClickGUI	MODULE	ClickGUI	点击用户图形界面	RENDER	The ClickGUI
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.h	Compass	MODULE	Compass	指南针	RENDER	Shows a compass
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.DynamicIslandHud	DynamicIsland	MODULE	DynamicIsland	灵动岛	RENDER	
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.i	EffectHUD	MODULE	EffectHUD	效果显示	RENDER	Displays potion effects on the HUD
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.j	Fov	MODULE	Fov	视场角	RENDER	Change fov.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.k	FullBright	MODULE	FullBright	光明	RENDER	Make your world brighter.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.l	Glow	MODULE	Glow	透视	RENDER	Glow effect for entities
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.m	HUD	MODULE	HUD	抬头显示器	RENDER	Displays information on your screen
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.n	HUDEditor	MODULE	HUDEditor	HUD编辑器	RENDER	HUD editor screen.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.o	ItemTags	MODULE	ItemTags	物品标签	RENDER	Show item tags.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.p	KeyBinds	MODULE	KeyBinds	按键显示	RENDER	显示所有按键绑定
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.q	MotionBlur	MODULE	MotionBlur	动态模糊	RENDER	Make your game smoother.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.r	NameProtect	MODULE	NameProtect	名称保护	RENDER	Protect your name
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.s	NameTags	MODULE	NameTags	名称标签	RENDER	Renders name tags
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.t	NoHurtCam	MODULE	NoHurtCam	无伤害抖动	RENDER	Disables the hurt camera effect
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.u	NoRender	MODULE	NoRender	无渲染	RENDER	Disables rendering
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.v	Notification	MODULE	Notification	通知	RENDER	
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Particles	Particles	MODULE	Particles	粒子	RENDER	Renders world particles
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.w	PostProcess	MODULE	PostProcess	后处理	RENDER	Post process effects
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Projectile	Projectiles	MODULE	Projectiles	投掷物落点显示	RENDER	Renders projectiles
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.x	Scoreboard	MODULE	Scoreboard	计分板	RENDER	Modifies the scoreboard
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.y	ServerNameSpoof	MODULE	ServerNameSpoof	服务器名字伪装	RENDER	Spoof the server name
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.z	TargetESP	MODULE	TargetESP	目标ESP	RENDER	Render face overlay
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.aa	TargetHUD	MODULE	TargetHUD	目标状态显示	RENDER	Display target info.
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ab	Test	MODULE	Test	测试	RENDER	
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ac	TimeChanger	MODULE	TimeChanger	时间更改器	RENDER	Change the time of the world
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ad	ViewClip	MODULE	ViewClip	视角穿墙	RENDER	Allows you to see through blocks
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ae	Watermark	MODULE	Watermark	客户端水印	RENDER	
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.af	Weather	MODULE	Weather	天气	RENDER	Customize world weather

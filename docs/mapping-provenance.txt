@@ -1,0 +1,18 @@
+映射数据出处（不随包分发，请按坐标自行获取）：
+
+1) SRG 侧  joined.tsrg
+   https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip
+   包内路径 config/joined.tsrg ，首行头部为 "tsrg2 obf srg id"
+   （5,521 KB，48,575 条方法 + 31,003 条字段映射）
+
+2) 官方名侧  Mojang 1.20.1 client mappings
+   https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt
+   sha1 = 6c48521eed01fe2e8ecdadbd5ae348415f3c47da
+   （7,814 KB；Mojang 头部声明可用于开发目的，但不得原样完整再分发，故此处只记录坐标）
+
+3) 交叉校验  EixClient.refmap.json（在 jar 内，已随 MOD-SOURCE/src/main/resources 一并交付）
+   由 Forge 的 mixin 注解处理器生成，内含 SRG <-> 官方名 的映射，
+   本次还原用它对 sample 结果做过独立验证。
+
+链接方向： joined.tsrg 的 srg 列  --(经 obf 列桥接)-->  client.txt 的 official 列
+得到 srg -> official 共 64,225 条，用于把源码里的 m_12345_/f_12345_ 还原为官方名。

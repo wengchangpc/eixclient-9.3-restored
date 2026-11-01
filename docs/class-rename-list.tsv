@@ -1,0 +1,102 @@
+混淆类名	还原后全限定名	依据
+com.heypixel.heypixelmod.obsoverlay.commands.a.a	com.heypixel.heypixelmod.obsoverlay.commands.a.Bind	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.commands.a.b	com.heypixel.heypixelmod.obsoverlay.commands.a.Config	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.commands.a.c	com.heypixel.heypixelmod.obsoverlay.commands.a.Language	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.commands.a.d	com.heypixel.heypixelmod.obsoverlay.commands.a.Music	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.commands.a.e	com.heypixel.heypixelmod.obsoverlay.commands.a.Proxy	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.commands.a.f	com.heypixel.heypixelmod.obsoverlay.commands.a.Toggle	@CommandInfo 注解名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.a	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.AimAssist	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.b	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.AntiBots	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.c	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.CrystalAura	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.d	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.AutoClicker	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.e	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.AutoHeal	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.f	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.AutoThrow	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.g	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.KeepSprint	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.h	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.KillAura	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.i	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.TickBase	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.a.j	com.heypixel.heypixelmod.obsoverlay.modules.impl.a.Velocity	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.a	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.AntiFireball	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.b	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.AutoHeypixel	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.c	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.AutoSoup	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.d	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.AutoTools	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.e	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.ChestStealer	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.f	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.ClientFriend	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.g	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.FastPlace	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.h	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.GhostBedMine	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.i	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.GhostChestOpen	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.j	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.GhostHand	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.k	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.Helper	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.l	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.InventoryManager	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.m	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.EffectTags	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.n	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.MiddleClick	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.o	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.MusicPlayer	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.p	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.Target	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.b.q	com.heypixel.heypixelmod.obsoverlay.modules.impl.b.Teams	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.a	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.AutoStuck	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.b	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Blink	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.c	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Eagle	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.d	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.FastWeb	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.e	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Fly	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.f	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.GrimFly	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.g	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.GrimLowHop	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.h	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.GrimSpeed	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.i	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.LongJump	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.j	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.NoFall	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.k	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.NoJumpDelay	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.l	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.NoSlow	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.m	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.SafeWalk	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.n	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Scaffold	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.o	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Speed	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.p	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Sprint	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.c.q	com.heypixel.heypixelmod.obsoverlay.modules.impl.c.Stuck	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.a	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Animations	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.aa	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.TargetHUD	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ab	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Test	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ac	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.TimeChanger	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ad	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ViewClip	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ae	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Watermark	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.af	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Weather	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.b	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.AntiBlindness	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.c	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.AntiNausea	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.d	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ArrayList	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.DynamicIslandHud	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.DynamicIsland	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.e	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.BedESP	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.f	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ChestESP	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.g	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ClickGUI	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.h	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Compass	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.i	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.EffectHUD	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.j	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Fov	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.k	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.FullBright	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.l	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Glow	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.m	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.HUD	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.n	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.HUDEditor	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.o	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ItemTags	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.p	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.KeyBinds	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Projectile	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Projectiles	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.q	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.MotionBlur	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.r	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.NameProtect	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.s	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.NameTags	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.t	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.NoHurtCam	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.u	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.NoRender	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.v	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Notification	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.w	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.PostProcess	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.x	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.Scoreboard	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.y	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.ServerNameSpoof	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.z	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.TargetESP	@ModuleInfo 注解显示名
+com.heypixel.heypixelmod.obsoverlay.a	com.heypixel.heypixelmod.obsoverlay.EixClient	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.b	com.heypixel.heypixelmod.obsoverlay.Version	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.c.a	com.heypixel.heypixelmod.obsoverlay.c.ClickGuiScreen	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.commands.a	com.heypixel.heypixelmod.obsoverlay.commands.Command	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.d.a	com.heypixel.heypixelmod.obsoverlay.d.NamedHolder	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.events.api.a	com.heypixel.heypixelmod.obsoverlay.events.api.EventLibInfo	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.events.api.a.a	com.heypixel.heypixelmod.obsoverlay.events.api.a.Cancellable	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.modules.impl.render.a.a	com.heypixel.heypixelmod.obsoverlay.modules.impl.render.a.TargetFilter	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.music.a	com.heypixel.heypixelmod.obsoverlay.music.AudioSupport	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.a	com.heypixel.heypixelmod.obsoverlay.utils.Smoother	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.b	com.heypixel.heypixelmod.obsoverlay.utils.TargetStore	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.c	com.heypixel.heypixelmod.obsoverlay.utils.LoggedResource	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.d	com.heypixel.heypixelmod.obsoverlay.utils.RemotePlayerEntity	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.d.a	com.heypixel.heypixelmod.obsoverlay.utils.d.Framebuffer	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.e	com.heypixel.heypixelmod.obsoverlay.utils.BlockShapeUtil	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.e.a	com.heypixel.heypixelmod.obsoverlay.utils.e.SkijaDraw	包/类同名冲突修复（按代码语义命名）
+com.heypixel.heypixelmod.obsoverlay.utils.f	com.heypixel.heypixelmod.obsoverlay.utils.ChatUtil	包/类同名冲突修复（按代码语义命名）
