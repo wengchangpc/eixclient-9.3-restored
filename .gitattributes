@@ -1,0 +1,17 @@
+# Normalize line endings on commit; checkout keeps LF everywhere by default.
+* text=auto eol=lf
+
+# Never touch these: any newline conversion corrupts them.
+*.jar   binary
+*.dll   binary
+*.dat   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ttf   binary
+*.otf   binary
+*.wav   binary
+*.ogg   binary
+*.zip   binary
+*.class binary

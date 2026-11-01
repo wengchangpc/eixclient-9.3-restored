@@ -84,5 +84,14 @@ upstream license.
 
 ## License
 
-No license file is committed yet. The original jar declared `All-Rights-Reserved`; a license for
-this reconstructed tree needs to be chosen deliberately.
+`LICENSE` is **GPL-3.0-or-later**, and `META-INF/mods.toml` now declares
+`license = "GPL-3.0-or-later"` accordingly. The license applies to the reconstructed mod source
+under `src/main/java/`.
+
+**Read [`THIRD-PARTY.md`](THIRD-PARTY.md) before redistributing.** Parts of this tree are not
+original work and are not covered by the GPL grant: the 9 upstream jars in `lib/`, the binary
+assets under `src/main/resources/assets/` (fonts, images, audio, `potion_effects.dat`), and the
+vanilla-Minecraft shader overrides under `assets/minecraft/`. Their provenance is recorded, but
+their license terms were **not** individually verified during the reconstruction — check them
+yourself before you ship this anywhere.
+
