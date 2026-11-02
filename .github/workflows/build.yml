@@ -1,0 +1,106 @@
+name: Build EixClient 9.3 (Forge 1.20.1)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    env:
+      GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dfile.encoding=UTF-8"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Gradle 8.1.1
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.1.1'
+          cache-write-only: false
+
+      # Non-invasive tweaks: raise javac's error cap (default 100 hides most of
+      # the tree's reported ~141 ambiguous-reference errors) and force UTF-8 so
+      # the 2,269 Chinese string literals survive compilation.
+      - name: Write Gradle init script
+        run: |
+          cat > ci-init.gradle <<'EOF'
+          allprojects {
+              tasks.withType(JavaCompile).configureEach {
+                  options.encoding = 'UTF-8'
+                  options.compilerArgs << '-Xmaxerrs' << '10000'
+                  options.fork = true
+                  options.forkOptions.memoryMaximumSize = '3g'
+              }
+          }
+          EOF
+
+      - name: Build with Gradle
+        id: gradle
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          gradle build -x test --continue --init-script ci-init.gradle 2>&1 | tee build.log
+          echo "gradle_exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Summarise javac errors
+        if: always()
+        run: |
+          {
+            echo "## EixClient 9.3 build summary"
+            echo ""
+            echo "- Gradle exit code: \`${{ steps.gradle.outputs.gradle_exit }}\`"
+            echo ""
+            echo "### Error counts"
+            echo '```'
+            echo "error: lines        : $(grep -c 'error:' build.log || true)"
+            echo "ambiguous refs      : $(grep -c 'reference to .* is ambiguous' build.log || true)"
+            echo "cannot find symbol  : $(grep -c 'cannot find symbol' build.log || true)"
+            echo "package not exists  : $(grep -c 'package .* does not exist' build.log || true)"
+            echo '```'
+            echo ""
+            echo "### First 40 errors"
+            echo '```'
+            grep 'error:' build.log | head -40 || echo "(none)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
+          if-no-files-found: ignore
+
+      - name: Upload built jar
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: EixClient-jar
+          path: build/libs/*.jar
+          if-no-files-found: ignore
+
+      - name: Fail job if build failed
+        if: always()
+        run: |
+          if [ "${{ steps.gradle.outputs.gradle_exit }}" != "0" ]; then
+            echo "::error::Gradle build failed (exit ${{ steps.gradle.outputs.gradle_exit }}). See build-log artifact."
+            exit 1
+          fi
