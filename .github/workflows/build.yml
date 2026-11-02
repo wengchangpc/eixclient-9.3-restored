@@ -55,9 +55,11 @@ jobs:
         id: gradle
         continue-on-error: true
         run: |
-          set -o pipefail
+          set +e
           gradle build -x test --continue --init-script ci-init.gradle 2>&1 | tee build.log
-          echo "gradle_exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          code=${PIPESTATUS[0]}
+          set -e
+          echo "gradle_exit=$code" >> "$GITHUB_OUTPUT"
 
       - name: Summarise javac errors
         if: always()
